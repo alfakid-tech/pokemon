@@ -1,0 +1,242 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.outside{
+  width: 400px;
+  height: 500px;
+  position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  border: 15px solid #FEE164;
+  border-radius: 15px;
+  background-color:#F05030;
+
+}
+
+
+.rectangle-one{
+  width: 120px;
+  height: 25px;
+  position: absolute;
+      left: 13%;
+      top: 85%;
+      transform: translate(-50%, -50%);
+  background-color:#E3E2E3;
+  border:solid black 1px;
+
+}
+
+.rectangle-two{
+  width: 120px;
+  height: 25px;
+  position: absolute;
+      left: 40%;
+      top: 85%;
+      transform: translate(-50%, -50%);
+  background-color:#E3E2E3;
+  border:solid black 1px;
+
+}
+.rectangle-three{
+  width: 145px;
+  height: 25px;
+  position: absolute;
+      left: 83%;
+      top: 85%;
+      transform: translate(-50%, -50%);
+  background-color:#E3E2E3;
+  border:solid black 1px;
+  z-index: 1;
+
+}
+
+.charmander-image {
+  width: 350px;
+  height: 200px; 
+  border-radius: 0px; 
+  position: absolute; 
+  right: 25px; 
+  top: 40px; 
+}
+
+.firesymbol-image {
+  width: 25px;
+  height: 25px; 
+  border-radius: 0px; 
+  position: absolute; 
+  right: 10px; 
+  top: 10px; 
+}
+
+.starsymbol-image {
+  width: 25px;
+  height: 25px; 
+  border-radius: 0px; 
+  position: absolute; 
+  left: 50px; 
+  bottom: 170px; 
+}
+
+.firesymbol2-image {
+  width: 22px;
+  height: 22px; 
+  border-radius: 0px; 
+  position: absolute; 
+  left: 25px; 
+  bottom: 171px; 
+}
+.starsymbol1-image {
+  width: 25px;
+  height: 25px; 
+  border-radius: 0px; 
+  position: absolute; 
+  right: 55px; 
+  bottom: 63px; 
+   z-index: 2;
+}
+.starsymbol2-image {
+  width: 25px;
+  height: 25px; 
+  border-radius: 0px; 
+  position: absolute; 
+  right: 30px; 
+  bottom: 63px; 
+  z-index: 2;
+}
+
+.watersymbol-image {
+  width: 25px;
+  height: 25px; 
+  border-radius: 0px; 
+  position: absolute; 
+  left: 60px; 
+  bottom: 63px; 
+  z-index: 2;
+}
+
+
+
+.charmander-text {
+  width: 350px;
+  height: 200px; 
+  position: absolute; 
+  left: 25px; 
+  top: 10px; 
+  color: BLACK;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.hp-text {
+  width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 315px; 
+  top: 25px; 
+  color: BLACK;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+  .digit-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 330px; 
+  top: 10px; 
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+
+  }
+
+  .pokemon-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 150px; 
+  bottom: 0px; 
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  }
+
+
+  .twenty-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 350px; 
+  bottom: 0px; 
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+
+  }
+
+
+  .ability-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 50px; 
+  top: 330px; 
+  font-family: sans-serif;
+  font-size: 15px;
+  white-space: nowrap;
+
+  }
+
+  .description-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  right: 20px; 
+  top: 450px; 
+  font-family: sans-serif;
+  font-size: 8%;
+
+
+  }
+
+
+  .weakness-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 0px;
+   top: 83%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+
+  }
+  .resistance-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 115px;
+      top: 83%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+
+  }
+
+
+  .retreat-text {
+    width: 150px;
+  height: 200px; 
+  position: absolute; 
+  left: 68%;
+      top: 83%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+   z-index: 2;
+
+  }
